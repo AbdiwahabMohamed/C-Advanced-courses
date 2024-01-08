@@ -1,11 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+
+
 namespace LearningCSharp
 {
 public class Person 
- {
+{
  private string _firstName;
-private string _lastName;
-
+ private string _lastName;
 
 public Person(string firstName, string lastName ) 
 {
@@ -76,5 +78,13 @@ public static void Message()
             return number1 + number2; 
         }
     }
-}
 
+    public class Student
+    {
+        public int StudentId;
+        public string studentName;
+        public int studentAge;
+        public string studentAddress;
+
+    }
+}

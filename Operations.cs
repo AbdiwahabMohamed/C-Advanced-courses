@@ -16,3 +16,13 @@ sum.AddTwo(2,3);
 Console.WriteLine(result);
 Console.WriteLine(sum.AddTwo(2,3));
 
+Student student = new Student()
+{
+    StudentId = 1,
+    studentName = "Abdiwahab",
+    studentAge = 20,
+    studentAddress = "Hargeisa"
+
+};
+
+Console.WriteLine(student);
